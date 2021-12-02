@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>favorite icecream app</title>
+    </head>
+    <body>
+        <form action="http://localhost:8080/icecream" method="post">
+            <header>What's your favorite icecream? Submit your response to win free icecream for life!</header>
+            <br>
+            <Label for="flavor">Favorite Icecream Flavor:</Label>
+            <input type="text" name="flavor" id="flavor">
+            <br>
+            <Label for="toppings">Toppings:</Label>
+            <input type="text" name="toppings" id="toppings">
+            <br>
+            <Label for="basetype">Type of Base:</Label>
+            <!--<input type="text" name="basetype" id="basetype">-->
+            <select name="basetype" id="basetype">
+                <option>Waffle Bowl</option>
+                <option>Waffle Cone</option>
+                <option>Sugar Cone</option>
+                <option>Kid Cone</option>
+            </select>
+            <br>
+            <Label for="numberofscoops"># of Scoops:</Label>
+            <input type="number" name="numberofscoops" id="numberofscoops">
+            <br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
